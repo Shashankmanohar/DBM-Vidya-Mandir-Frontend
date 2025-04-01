@@ -26,7 +26,7 @@ export default function ContactUs() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/contact', formData);
+            const response = await axios.post('https://www.dbmvidyamandir.com/api/contact', formData);
             toast.success(response.data.message || 'Form submitted successfully!');
             setFormData({ name: '', email: '', phone: '', message: '' });
         } catch (error) {
