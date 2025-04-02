@@ -10,7 +10,15 @@ const contact = [
     { id: 2, title: "Email Address", detail: "dbmvidyamandir1@gmail.com", icon: faEnvelope },
     { id: 3, title: "Office Hour", detail: "Monday to Saturday: 8.30am – 03.00pm", icon: faClock }
 ];
-
+const locations = [
+    {
+        id: 1,
+        city: "BiharSharif, Nalanda",
+        address: "Navinagar",
+        lat: "25.158741",
+        lng: "85.484307"
+    }
+];
 export default function ContactUs() {
     const [formData, setFormData] = useState({
         name: '',
@@ -52,8 +60,24 @@ export default function ContactUs() {
                     ))}
                 </div>
             </div>
-
-            <div className="w-full h-auto p-10 bg-[#ffcf55] rounded-t-[60px] md:rounded-t-[100px]">
+             <div className="w-full h-auto p-10 bg-[#ffcf55] rounded-t-[60px] md:rounded-t-[100px]">
+                <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#081646] mb-6">School Locations</h2>
+                <div className="flex flex-wrap justify-center gap-6">
+                    {locations.map((location) => (
+                        <div key={location.id} className="bg-white border rounded-2xl shadow-lg w-90 md:w-130 p-6 text-center flex flex-col items-center">
+                            <iframe
+                                title={location.city}
+                                src={`https://www.google.com/maps?q=${location.lat},${location.lng}&output=embed`}
+                                className="w-full h-48 rounded-lg mb-4"
+                                allowFullScreen
+                            ></iframe>
+                            <h3 className="text-xl md:text-2xl font-semibold text-[#081646]">{location.city}</h3>
+                            <p className="text-gray-600 text-md mt-2">{location.address}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="w-full h-auto p-10 bg-[#ffffff] rounded-t-[60px] md:rounded-t-[100px]">
                 <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#081646] mb-6">Get In Touch</h2>
                 <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto bg-white p-8 rounded-xl shadow-lg">
                     <div className="mb-4">
