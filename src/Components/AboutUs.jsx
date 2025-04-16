@@ -11,21 +11,21 @@ const teachers = [
         name: "Brandon Miller",
         role: "Curriculum Coordinator",
         description: "Brandon ensures that all learning programs are designed to foster growth.",
-        image: SudhirKumar,
+        image:
     },
     {
         id: 2,
         name: "Emily Johnson",
         role: "Physical Education Teacher",
         description: "Dedicated to supporting students' emotion, providing guidance and care.",
-        image: SoniKumari
+        image: 
     },
     {
         id: 3,
         name: "Michael Davis",
         role: "School Counselor",
         description: "Engaging activities to promote physical health and teamwork development.",
-        image: Gulafshava
+        image: 
     }
 ];
 
