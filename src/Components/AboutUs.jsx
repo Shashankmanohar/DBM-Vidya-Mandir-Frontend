@@ -1,14 +1,4 @@
 import React from 'react'
-import SudhirKumar from '../assets/1.png';
-import SoniKumari from '../assets/20250414_112521.png';
-import Gulafshava from '../assets/20250414_112555.png';
-import SudhirKumar from '../assets/20250414_112551.png';
-import SudhirKumar from '../assets/20250414_112507.png';
-import SudhirKumar from '../assets/20250414_112519.png';
-import SudhirKumar from '../assets/20250414_112539.png';
-import SudhirKumar from '../assets/20250414_112533.png';
-import SudhirKumar from '../assets/20250414_112559.png';
-
 
 const mission = [
     {id:1, title1:"Mission", title2: "Our", detail:"Our mission is to nurture young minds in a  joyful, and stimulating environment where every child is empowered to explore, and grow."},
