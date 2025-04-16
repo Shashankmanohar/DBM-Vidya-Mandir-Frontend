@@ -1,4 +1,13 @@
 import React from 'react'
+import SudhirKumar from '../assets/1.png';
+import SoniKumari from '../assets/20250414_112521.png';
+import Gulafshava from '../assets/20250414_112555.png';
+import SudhirKumar from '../assets/20250414_112551.png';
+import SudhirKumar from '../assets/20250414_112507.png';
+import SudhirKumar from '../assets/20250414_112519.png';
+import SudhirKumar from '../assets/20250414_112539.png';
+import SudhirKumar from '../assets/20250414_112533.png';
+import SudhirKumar from '../assets/20250414_112559.png';
 
 
 const mission = [
@@ -12,21 +21,21 @@ const teachers = [
         name: "Brandon Miller",
         role: "Curriculum Coordinator",
         description: "Brandon ensures that all learning programs are designed to foster growth.",
-        image: "https://via.placeholder.com/300" 
+        image: SudhirKumar,
     },
     {
         id: 2,
         name: "Emily Johnson",
         role: "Physical Education Teacher",
         description: "Dedicated to supporting students' emotion, providing guidance and care.",
-        image: "https://via.placeholder.com/300" 
+        image: SoniKumari
     },
     {
         id: 3,
         name: "Michael Davis",
         role: "School Counselor",
         description: "Engaging activities to promote physical health and teamwork development.",
-        image: "https://via.placeholder.com/300"
+        image: Gulafshava
     }
 ];
 
