@@ -1,15 +1,15 @@
 import React from 'react';
 import SubodhKumar from '../assets/SubodhKumar.jpg';
 import SumanKumari from '../assets/SumanKumari.jpg';
-import SudhirKumar from '../assets/SudhirKumar.jpg';
-import AnishKumar from '../assets/AnishKumar.jpg';
+import SudhirKumar from '../assets/SudhirKumar.webp';
+import AnishKumar from '../assets/AnishKumar.webp';
 import AmrishRaj from '../assets/AmrishRaj.jpg';
 import RinaKumari from '../assets/RinaKumari.jpg';
 import TannuKumari from '../assets/TannuKumari.jpg';
-import SoniKumari from '../assets/SoniKumari.jpg';
+import SoniKumari from '../assets/SoniKumari.webp';
 import Gulafshava from '../assets/Gulafshava.webp';
-import AasmaaPerween from '../assets/AasmaPerween.jpg';
-import SushmaDevi from '../assets/SushmaDevi.jpg';
+import AasmaaPerween from '../assets/AasmaPerween.webp';
+import SushmaDevi from '../assets/SushmaDevi.webp';
 
 const mission = [
   {
