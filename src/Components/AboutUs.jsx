@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-=======
 import React from 'react';
 import SubodhKumar from '../assets/SubodhKumar.jpg';
 import SumanKumari from '../assets/SumanKumari.jpg';
@@ -10,10 +7,9 @@ import AmrishRaj from '../assets/AmrishRaj.jpg';
 import RinaKumari from '../assets/RinaKumari.jpg';
 import TannuKumari from '../assets/TannuKumari.jpg';
 import SoniKumari from '../assets/SoniKumari.jpg';
-import Gulafshava from '../assets/Gulafshava.jpg';
+import Gulafshava from '../assets/Gulafshava.webp';
 import AasmaaPerween from '../assets/AasmaPerween.jpg';
 import SushmaDevi from '../assets/SushmaDevi.jpg';
->>>>>>> 3a55cf0 (Adding teacher Photo)
 
 const mission = [
   {
@@ -31,29 +27,7 @@ const mission = [
 ];
 
 const teachers = [
-<<<<<<< HEAD
-    {
-        id: 1,
-        name: "Brandon Miller",
-        role: "Curriculum Coordinator",
-        description: "Brandon ensures that all learning programs are designed to foster growth.",
-        image:
-    },
-    {
-        id: 2,
-        name: "Emily Johnson",
-        role: "Physical Education Teacher",
-        description: "Dedicated to supporting students' emotion, providing guidance and care.",
-        image: 
-    },
-    {
-        id: 3,
-        name: "Michael Davis",
-        role: "School Counselor",
-        description: "Engaging activities to promote physical health and teamwork development.",
-        image: 
-    }
-=======
+    
   { id: 1, name: "Anish Kumar", role: "Mathematics Teacher", image: AnishKumar },
   { id: 2, name: "Amrish Raj", role: "Social Science", image: AmrishRaj },
   { id: 3, name: "Rina Kumari", role: "Hindi Teacher", image: RinaKumari },
@@ -62,7 +36,7 @@ const teachers = [
   { id: 6, name: "Gulafshava", role: "Kids Teacher", image: Gulafshava },
   { id: 7, name: "Sushma Devi", role: "Kids Teacher", image: SushmaDevi },
   { id: 8, name: "Aasma Perween", role: "Kids Teacher", image: AasmaaPerween }
->>>>>>> 3a55cf0 (Adding teacher Photo)
+
 ];
 
 export default function AboutUs() {
