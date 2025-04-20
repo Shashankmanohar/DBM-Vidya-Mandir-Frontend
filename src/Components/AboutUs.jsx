@@ -33,7 +33,7 @@ const teachers = [
   { id: 3, name: "Rina Kumari", role: "Hindi Teacher", image: RinaKumari },
   { id: 4, name: "Tannu Kumari", role: "Science Teacher", image: TannuKumari },
   { id: 5, name: "Soni Kumari", role: "Class 1st Teacher", image: SoniKumari },
-  { id: 6, name: "Gulafshava", role: "Kids Teacher", image: Gulafshava },
+  { id: 6, name: "Gulafshana", role: "Kids Teacher", image: Gulafshava },
   { id: 7, name: "Sushma Devi", role: "Kids Teacher", image: SushmaDevi },
   { id: 8, name: "Aasma Perween", role: "Kids Teacher", image: AasmaaPerween }
 
