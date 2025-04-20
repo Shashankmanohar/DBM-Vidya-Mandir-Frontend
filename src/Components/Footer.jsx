@@ -34,7 +34,7 @@ export default function Footer() {
             </a>
             
             <a
-              href="https://www.facebook.com/dbmvidyamandir"
+              href="https://www.facebook.com/share/1AeBZnVy8q/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"

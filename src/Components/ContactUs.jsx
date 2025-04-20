@@ -10,6 +10,10 @@ const contact = [
     { id: 2, title: "Email Address", detail: "dbmvidyamandir1@gmail.com", icon: faEnvelope },
     { id: 3, title: "Office Hour", detail: "Monday to Saturday: 8.30am – 03.00pm", icon: faClock }
 ];
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a55cf0 (Adding teacher Photo)
 const locations = [
     {
         id: 1,
@@ -60,7 +64,11 @@ export default function ContactUs() {
                     ))}
                 </div>
             </div>
+<<<<<<< HEAD
              <div className="w-full h-auto p-10 bg-[#ffcf55] rounded-t-[60px] md:rounded-t-[100px]">
+=======
+            <div className="w-full h-auto p-10 bg-[#ffcf55] rounded-t-[60px] md:rounded-t-[100px]">
+>>>>>>> 3a55cf0 (Adding teacher Photo)
                 <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#081646] mb-6">School Locations</h2>
                 <div className="flex flex-wrap justify-center gap-6">
                     {locations.map((location) => (
